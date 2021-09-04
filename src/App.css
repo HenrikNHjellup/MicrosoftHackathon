@@ -24,8 +24,23 @@
   color: white;
 }
 
+.Navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: lightgray;
+  border-bottom-width: thin;
+  border-bottom-style: solid;
+  border-bottom-color: gray;
+}
+
 .App-link {
   color: #61dafb;
+}
+
+.tokenDiv {
+  margin-top: 10%;
+  font-size: 2em;
 }
 
 @keyframes App-logo-spin {
